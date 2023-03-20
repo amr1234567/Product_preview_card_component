@@ -8,10 +8,66 @@
     font-family: url(https://fonts.google.com/specimen/Montserrat);
     font-weight: 500;
 }
-
-
-p{
+.franc{
+    font-family: url(https://fonts.google.com/specimen/Fraunces) !important;
+    font-weight: 700 !important;
+}
+p {
     font-size: 14px;
+}
+.cont {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--Cream);
+    width: 75%;
+    height: 600px;
+    left: 50%;
+    top: 50%;
+
+    box-shadow: 3px 21px 48px 6px grey;
+    transform: translate(-50%, -50%);
+}
+
+.block {
+    border: 5 solid black;
+    display: flex;
+    flex-direction: row;
+    width: 55%;
+    /* grid-template-areas: col col; */
+}
+
+img{
+    width: 100%;
+}
+.details{
+    background-color: var(--White);
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    align-content: space-between;
+}
+h5{
+    letter-spacing: 3px;
+    color: var(--Dark_grayish_blue);
+}
+.title{
+    font-size: 35px;
+    margin-bottom: 10px;
+    
+}
+.description{
+    padding: 10px;
+    color: #4b3e3e73;
+    font-size: 14px;
+}
+.image_perfum {
+    /* grid-area: col; */
+}
+
+.details {
+    /* grid-area: col; */
 }
 
 .attribution {
