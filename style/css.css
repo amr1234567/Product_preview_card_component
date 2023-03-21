@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600&family=Montserrat:wght@300&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600&display=swap'); */
+
 :root {
     --Dark_cyan: hsl(158, 36%, 37%);
     --Cream: hsl(30, 38%, 92%);
@@ -5,16 +8,19 @@
     --Very_dark_blue: hsl(212, 21%, 14%);
     --Dark_grayish_blue: hsl(228, 12%, 48%);
     --White: hsl(0, 0%, 100%);
-    font-family: url(https://fonts.google.com/specimen/Montserrat);
+    font-family: 'Montserrat', sans-serif;
     font-weight: 500;
 }
-.franc{
-    font-family: url(https://fonts.google.com/specimen/Fraunces) !important;
+
+.franc {
+    font-family: 'Fraunces', serif;   
     font-weight: 700 !important;
 }
+
 p {
     font-size: 14px;
 }
+
 .cont {
     position: absolute;
     display: flex;
@@ -38,30 +44,74 @@ p {
     /* grid-template-areas: col col; */
 }
 
-img{
+img {
     width: 100%;
 }
-.details{
+
+.details {
     background-color: var(--White);
     display: flex;
     flex-direction: column;
     padding: 20px;
-    align-content: space-between;
+    align-content: space-around;
 }
-h5{
+
+h5 {
     letter-spacing: 3px;
     color: var(--Dark_grayish_blue);
-}
-.title{
-    font-size: 35px;
-    margin-bottom: 10px;
+    /* margin-bottom: 15px; */
     
 }
-.description{
-    padding: 10px;
-    color: #4b3e3e73;
-    font-size: 14px;
+
+.title {
+    font-size: 35px;
+    margin-bottom: 10px;
+    margin-bottom: 10px;
 }
+
+.description {
+    padding: 10px;
+    color: var(--Dark_grayish_blue);
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.salary {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.after_descount {
+    font-size: 40px;
+    color: var(--Dark_cyan);
+    margin-right: 50px;
+    font-weight: 700;
+}
+
+.before_decount {
+    color: var(--Dark_grayish_blue);
+}
+
+.button {
+    background-color: var(--Dark_cyan);
+    color: var(--Cream);
+    margin: 0px 25px;
+    padding: 10px 0px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.button>img {
+    width: 15px;
+    margin-right: 10px;
+}
+
 .image_perfum {
     /* grid-area: col; */
 }
